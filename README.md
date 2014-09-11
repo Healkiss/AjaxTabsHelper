@@ -4,6 +4,7 @@ AjaxTabsHelper
 Allow to simply addajax to a tabtable 
 
 Help for ajax tabs
+
 WHAT:
 Automatically call an url with one parametre depending on active tab(dynamic) or hash in URL(static) (url#myhash)
 Add an alertResponse div allowing to display response code/message (display errors happened during ajax call for example), like a flash message.
