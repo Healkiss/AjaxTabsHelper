@@ -19,12 +19,12 @@ SETUP :
 Use the tabtable you need
 Add class .ajaxTabs and a data-url(ajax url) to your tabtable div
     example :
-    ```html
+    ```HTML
         <div id="tabs" class="tabbable tabbable-custom tabbable-full-width ajaxTabs" data-url="mywebsite_url">
     ```
 Add class .ajaxTab and a data-title (parametre) to each tabs
     example :
-        ```html
+        ```HTML
         <li class="active">
             <a class='ajaxTab' data-title='societies' data-toggle="tab">Assos</a>
         </li>
