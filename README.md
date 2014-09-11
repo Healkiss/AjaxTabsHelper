@@ -27,6 +27,7 @@ Add class .ajaxTab and a data-title (parametre) to each tabs
         </li>
 
 
+
 USE :
 
 myTabs = new AjaxTabs($("#tabs"));
