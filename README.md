@@ -21,7 +21,7 @@ Add class .ajaxTabs and a data-url(ajax url) to your tabtable div
     example :
     
 ```html
-<div id="tabs" class="tabbable tabbable-custom tabbable-full-width ajaxTabs" data-url="mywebsite_url">
+<div id="tabs" class="tabbable ajaxTabs" data-url="mywebsite_url">
 ```
 Add class .ajaxTab and a data-title (parametre) to each tabs
     example :
