@@ -27,7 +27,7 @@ Add class .ajaxTab and a data-title (parametre) to each tabs
     example :
 ```HTML
 <li class="active">
-    <a class='ajaxTab' data-title='societies' data-toggle="tab">Assos</a>
+    <a class='ajaxTab' data-title='lastTab' data-toggle="tab">lastTab</a>
 </li>
 ```
 
