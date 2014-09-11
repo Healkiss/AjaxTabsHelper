@@ -1,9 +1,7 @@
 AjaxTabsHelper
 ==============
 
-Allow to simply addajax to a tabtable 
-
-Help for ajax tabs
+Allow to simply add ajax to a tabtable 
 
 WHAT:
 
