@@ -16,7 +16,6 @@ Work with bootstrap for a better compatibility (for the spinner)
 
 SETUP :
 
-Use the tabtable you need 
 Add class .ajaxTabs and a data-url(ajax url) to your tabtable div
     
 ```html
