@@ -16,15 +16,13 @@ Work with bootstrap for a better compatibility (for the spinner)
 
 SETUP :
 
-Use the tabtable you need
+Use the tabtable you need 
 Add class .ajaxTabs and a data-url(ajax url) to your tabtable div
-    example :
     
 ```html
 <div id="tabs" class="tabbable ajaxTabs" data-url="mywebsite_url">
 ```
 Add class .ajaxTab and a data-title (parametre) to each tabs
-    example :
 ```HTML
 <li class="active">
     <a class='ajaxTab' data-title='lastTab' data-toggle="tab">lastTab</a>
