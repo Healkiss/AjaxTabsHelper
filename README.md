@@ -34,6 +34,7 @@ Add class .ajaxTab and a data-title (parametre) to each tabs
 
 
 USE :
-
+```javascripts
 myTabs = new AjaxTabs($("#tabs"));
 myTabs.init();
+```
