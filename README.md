@@ -17,13 +17,31 @@ SETUP :
 Add class .ajaxTabs and a data-url(ajax url) to your tabtable div
     
 ```html
-<div id="tabs" class="tabbable ajaxTabs" data-url="mywebsite_url">
+<div id="tabs" class="tabbable tabbable-custom tabbable-full-width ajaxTabs" data-url="mypage_url">
 ```
 Add class .ajaxTab and a data-title (parametre) to each tabs
 ```HTML
 <li class="active">
     <a class='ajaxTab' data-title='lastTab' data-toggle="tab">lastTab</a>
 </li>
+```
+
+```Example
+<div id="tabs" class="tabbable tabbable-custom tabbable-full-width ajaxTabs" data-url="mywebsite_url">
+    <ul class="cl-tabs nav nav-tabs">
+        <li class="active">
+            <a class='ajaxTab' data-title='resume' data-toggle="tab">{{ 'resume'|trans }}</a>
+        </li>
+        <li class="active">
+            <a class='ajaxTab' data-title='manageEntities' data-toggle="tab">{{ 'entity.action.manage'|transchoice(2) }}</a>
+        </li>
+        <li class="active">
+            <a class='ajaxTab' data-title='parameters' data-toggle="tab">{{ 'parameter_perso'|transchoice(2) }}</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+    </div>
+</div>
 ```
 
 USE :
